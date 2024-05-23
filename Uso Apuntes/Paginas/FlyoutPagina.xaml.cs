@@ -1,6 +1,6 @@
 namespace Uso_Apuntes.Paginas;
 
-public partial class FlyoutPagina : ContentPage
+public partial class FlyoutPagina : FlyoutPage
 {
 	public FlyoutPagina()
 	{

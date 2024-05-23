@@ -10,6 +10,6 @@ namespace Uso_Apuntes.Data
     {
         public string Title { get; set; }   
         public string IconSource { get; set;}
-        public string Descripcion { get; set; }
+        public Type TargetType { get; set;}
     }
 }

@@ -13,10 +13,46 @@
                       SelectionMode="Single">
     
         <CollectionView.ItemsSource>
-        
+            <x:Array Type="{x:Type Local1:FlyoutPaginaItem}">
+                <Local1:FlyoutPaginaItem Title="Home"
+                                         IconSource="home.png"
+                                         TargetType="{x:Type Local:Notas}">
+                </Local1:FlyoutPaginaItem>
+                <Local1:FlyoutPaginaItem Title="Notas"
+                                         IconSource="Apuntes.png"
+                                         TargetType="{x:Type Local:Notas}">
+                </Local1:FlyoutPaginaItem>
+                <Local1:FlyoutPaginaItem Title="Informacion"
+                                         IconSource="yo.png"
+                                         TargetType="{x:Type Local:Notas}">
+                </Local1:FlyoutPaginaItem>
+
+            </x:Array>
         
         </CollectionView.ItemsSource>
 
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="5,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="{Binding IconSource}"/>
+                    <Label Grid.Column="1"
+                           Margin="20,0"
+                           Text="{Binding Title}"
+                           FontSize="20"
+                           FontAttributes="Blod"
+                           VerticalOptions="Center">
+                                          
+                        
+                    </Label>
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+        
+        
     </CollectionView>
     
     
