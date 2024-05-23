@@ -2,7 +2,7 @@
 <FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Uso_Apuntes.Paginas.FlyoutPagina"
-            xmlns:Local="clr-namespace:Uso_Apuntes.Paginas"
+             xmlns:Local="clr-namespace:Uso_Apuntes.Paginas"
              Title="FlyoutPagina">
 
     <FlyoutPage.Fyout>

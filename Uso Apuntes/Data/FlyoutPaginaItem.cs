@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Uso_Apuntes.Data
 {
-    internal class FlyoutPaginaItem
+    public class FlyoutPaginaItem
     {
+        public string Title { get; set; }   
+        public string IconSource { get; set;}
+        public string Descripcion { get; set; }
     }
 }
