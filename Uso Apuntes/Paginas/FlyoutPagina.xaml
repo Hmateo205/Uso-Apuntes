@@ -13,6 +13,7 @@
         <NavigationPage>
             <x:Arguments>
                 <Local:Notas/>
+                
             </x:Arguments>
         </NavigationPage>
     </FlyoutPage>
