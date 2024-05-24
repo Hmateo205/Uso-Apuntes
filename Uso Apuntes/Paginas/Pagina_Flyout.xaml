@@ -7,11 +7,10 @@
 
     <FlyoutPage.Flyout>
         <local:Menu_Flyout x:Name="FlyoutPage"/>
-        
-
-
     </FlyoutPage.Flyout>
+    <FlyoutPage.Detali>
         
+    </FlyoutPage.Detali>
 
 
 
