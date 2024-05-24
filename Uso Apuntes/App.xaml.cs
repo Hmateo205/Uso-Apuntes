@@ -1,4 +1,6 @@
-﻿namespace Uso_Apuntes
+﻿using Uso_Apuntes.Paginas.Flyouts;
+
+namespace Uso_Apuntes
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new Pagina_Flyout();
         }
     }
 }
