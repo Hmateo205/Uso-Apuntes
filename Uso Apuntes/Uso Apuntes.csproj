@@ -57,9 +57,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\apuntes.png" />
 	  <None Remove="Resources\Images\home.png" />
-	  <None Remove="Resources\Images\yo.png" />
+	  <None Remove="Resources\Images\Info.png" />
+	  <None Remove="Resources\Images\Nota.png" />
 	</ItemGroup>
 
 	<ItemGroup>
