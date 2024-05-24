@@ -72,10 +72,10 @@
 	  <MauiXaml Update="MainPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Flyouts\Menu_Flyout.xaml">
+	  <MauiXaml Update="Paginas\Menu_Flyout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Flyouts\Pagina_Flyout.xaml">
+	  <MauiXaml Update="Paginas\Pagina_Flyout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Paginas\Info_P2.xaml">
